@@ -97,7 +97,7 @@ inquirer
     console.log(data);
     const md = generateMD(data);
     console.log(md);
-    fs.writeFile("readme.md", md, (err) => {
+    fs.writeFile("readme2.md", md, (err) => {
       if (err) {
         console.log(err);
       } else {
